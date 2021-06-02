@@ -1,6 +1,6 @@
 # Node Login
 
-[![node-login](./readme.img/node-login.jpg?raw=true)](https://node-login.braitsch.io)
+
 
 #### A basic account management system built in Node.js with the following features:
 
