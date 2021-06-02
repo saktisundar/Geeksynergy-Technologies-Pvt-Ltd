@@ -1,6 +1,6 @@
 # Node Login
 
-[![node-login](./readme.img/node-login.jpg?raw=true)](https://node-login.braitsch.io)
+
 
 #### A basic account management system built in Node.js with the following features:
 
@@ -42,21 +42,6 @@ For testing purposes you can view a [database dump of all accounts here](https:/
 
 5. Open a browser window and navigate to: [http://localhost:8080](http://localhost:8080)
 
-------
-
-### Password Retrieval
-
-To enable the password retrieval feature it is recommended that you create environment variables for your credentials instead of hard coding them into the [email dispatcher module](https://github.com/braitsch/node-login/blob/master/server/utils/emailjs.js).
-
-To do this on OSX you can simply add them to your .profile or .bashrc file.
-
-	export NL_EMAIL_HOST='smtp.gmail.com'
-	export NL_EMAIL_USER='your.email@gmail.com'
-	export NL_EMAIL_PASS='12345678'
-
-Or use [dotenv](https://www.npmjs.com/package/dotenv) (recommended) and place these inside of a ``.env`` file in your project's root directory.
-
-[![node-login](./readme.img/retrieve-password.jpg?raw=true)](https://node-login.braitsch.io)
 
 ### Contributing
 
